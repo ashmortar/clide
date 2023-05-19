@@ -21,12 +21,14 @@ The `.clide` folder is the root of all your command routes.
 
 ### Hello World
 
-Lets do a traditional hello world! Simply add a script in the `.clide` directory. ```
+Lets do a traditional hello world! Simply add a script in the `.clide` directory. 
+```
 ━┑
  ┝━.git
  ┕━.clide
     ┕━hello.sh
 ```
+
 And `hello.sh`:
 ```bash
 #!/usr/bin/env sh
@@ -90,7 +92,6 @@ For the following shortcuts, we've extended our example file structure:
     ┕━{Person}
        ┝━person
        ┕━say_hola.sh
-
 ```
 Navigating around the menus is great, but sometimes you know the command you want to run ahead of time. Clide provies several ways to shortcut your commands:
  - To shortcut commands, you can use any prefix of the command/module. Eg: `clide a p`
